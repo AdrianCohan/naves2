@@ -1,0 +1,232 @@
+
+
+body{
+    display: flex;
+    background-image: url("/pagina naves/imagenes/millennium-falcon.jpg");
+    background-size: cover;
+    background-repeat: no-repeat ;
+    background-position: center center;
+    width: 100vw;
+    height: 100vh;
+    justify-content: space-between;
+   
+}
+p{
+    color: yellow;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 40%;
+    font-size: 1em;
+    
+}
+a{
+    text-decoration: none;
+}
+.caja1{
+    position: absolute;
+    display: block;
+    background-color: black;
+    width: 10vw;
+    height: 20vh;
+    margin-top: 0.5%;
+    margin-left: 2%;
+    border: 2px solid red;
+    border-radius: 10%;
+    text-align: center;
+    font-size: small;
+    transition: 2s;
+    box-shadow: 2px 2px 10px 5px white;
+}
+.caja1:hover , .caja4:hover , .caja7:hover , .caja10:hover , .caja13:hover{
+   transform: rotateZ(360deg);
+}
+
+.caja2{
+    position: absolute;
+    display: block;
+    background-color: black;
+    width: 10vw;
+    height: 20vh;
+    margin-top: 0.5%;
+    margin-left: 14%;
+    border: 2px solid red;
+    border-radius: 10%;
+    transition: 2s;
+    box-shadow: 2px 2px 10px 5px white;
+}
+.caja2:hover , .caja5:hover , .caja8:hover , .caja11:hover , .caja14:hover{
+    transform: rotateX(360deg);
+}
+.caja3{
+    position: absolute;
+    display: block;
+    background-color: black;
+    width: 10vw;
+    height: 20vh;
+    margin-top: 0.5%;
+    margin-left: 26%;
+    border: 2px solid red;
+    border-radius: 10%;
+    transition: 2s;
+    box-shadow: 2px 2px 10px 5px white;
+}
+.caja3:hover , .caja6:hover , .caja9:hover , .caja12:hover , .caja15:hover{
+    transform: rotateY(360deg);
+}
+.caja4{
+    position: absolute;
+    display: block;
+    background-color: black;
+    width: 10vw;
+    height: 20vh;
+    margin-top: 0.5%;
+    margin-left: 38%;
+    border: 2px solid red;
+    border-radius: 10%;
+    transition: 2s;
+    box-shadow: 2px 2px 10px 5px white;
+}
+.caja5{
+    position: absolute;
+    display: block;
+    background-color: black;
+    width: 10vw;
+    height: 20vh;
+    margin-top: 0.5%;
+    margin-left: 50%;
+    border: 2px solid red;
+    border-radius: 10%;
+    transition: 2s;
+    box-shadow: 2px 2px 10px 5px white;
+}
+.caja6{
+    position: absolute;
+    display: block;
+    background-color: black;
+    width: 10vw;
+    height: 20vh;
+    margin-top: 0.5%;
+    margin-left: 62%;
+    border: 2px solid red;
+    border-radius: 10%;
+    transition: 2s;
+    box-shadow: 2px 2px 10px 5px white;
+}
+.caja7{
+    position: absolute;
+    display: block;
+    background-color: black;
+    width: 10vw;
+    height: 20vh;
+    margin-top: 0.5%;
+    margin-left: 74%;
+    border: 2px solid red;
+    border-radius: 10%;
+    transition: 2s;
+    box-shadow: 2px 2px 10px 5px white;
+}
+.caja8{
+    position: absolute;
+    display: block;
+    background-color: black;
+    width: 10vw;
+    height: 20vh;
+    margin-top: 0.5%;
+    margin-left: 86%;
+    border: 2px solid red;
+    border-radius: 10%;
+    transition: 2s;
+    box-shadow: 2px 2px 10px 5px white;
+}
+.caja9{
+    position: absolute;
+    display: block;
+    background-color: black;
+    width: 10vw;
+    height: 20vh;
+    margin-top: 12%;
+    margin-left: 2%;
+    border: 2px solid red;
+    border-radius: 10%;
+    transition: 2s;
+    box-shadow: 2px 2px 10px 5px white;
+}
+.caja10{
+    position: absolute;
+    display: block;
+    background-color: black;
+    width: 10vw;
+    height: 20vh;
+    margin-top: 12%;
+    margin-left: 14%;
+    border: 2px solid red;
+    border-radius: 10%;
+    transition: 2s;
+    box-shadow: 2px 2px 10px 5px white;
+}
+.caja11{
+    position: absolute;
+    display: block;
+    background-color: black;
+    width: 10vw;
+    height: 20vh;
+    margin-top: 12%;
+    margin-left: 26%;
+    border: 2px solid red;
+    border-radius: 10%;
+    transition: 2s;
+    box-shadow: 2px 2px 10px 5px white;
+}
+.caja12{
+    position: absolute;
+    display: block;
+    background-color: black;
+    width: 10vw;
+    height: 20vh;
+    margin-top: 23.5%;
+    margin-left: 2%;
+    border: 2px solid red;
+    border-radius: 10%;
+    transition: 2s;
+    box-shadow: 2px 2px 10px 5px white;
+}
+.caja13{
+    position: absolute;
+    display: block;
+    background-color: black;
+    width: 10vw;
+    height: 20vh;
+    margin-top: 23.5%;
+    margin-left: 14%;
+    border: 2px solid red;
+    border-radius: 10%;
+    transition: 2s;
+    box-shadow: 2px 2px 10px 5px white;
+}
+.caja14{
+    position: absolute;
+    display: block;
+    background-color: black;
+    width: 10vw;
+    height: 20vh;
+    margin-top: 35%;
+    margin-left: 2%;
+    border: 2px solid red;
+    border-radius: 10%;
+    transition: 2s;
+    box-shadow: 2px 2px 10px 5px white;
+}
+.caja15{
+    position: absolute;
+    display: block;
+    background-color: black;
+    width: 10vw;
+    height: 20vh;
+    margin-top: 35%;
+    margin-left: 14%;
+    border: 2px solid red;
+    border-radius: 10%;
+    transition: 2s;
+    box-shadow: 2px 2px 10px 5px white;
+}
